@@ -1,12 +1,19 @@
 .cart-container{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 4fr 1.5fr;
+    /* background-color: rgb(137, 178, 194); */
 }
 .products-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
+    gap: 20px;
+    background-color: rgb(235, 235, 235);
+
 }
 .container-cart{
     background-color: aliceblue;
+    border-radius: 40px;
+    text-align: center;
+    /* position: static;
+    top: 0; */
 }

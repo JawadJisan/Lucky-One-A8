@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
+import Selectedcars from '../Selectedcars/Selectedcars';
 import './Cart.css'
 
 const Cart = () => {
@@ -20,7 +21,9 @@ const Cart = () => {
                 }
             </div>
             <div className='container-cart'>
-            <h1>This is The Cart-container</h1>
+            <h1>Selected Cars</h1>
+            <Selectedcars></Selectedcars>
+
             </div>
         </div>
     );

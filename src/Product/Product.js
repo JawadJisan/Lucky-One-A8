@@ -11,17 +11,17 @@ const Product = (props) => {
         <div className='product'>
             <img src={img} ></img>
             <div className='product-info'>
-                <h2>Name: {name} </h2>
+                <h2 className='product-name'>Name: {name} </h2>
                 <p>Price: ${price} </p>
                 <p>Max Power: {maxpower} </p>
                 <p>Top Speed: {topspeed} </p>
             </div>
-            <div className='add-to-cart'>
-        <button onClick={() => props.handleAddToCart(props.gun)}>
-          <BsFillCartFill className='icon' />
-        </button>
-        <h1>Add to Cart</h1>
-      </div>
+            
+            <button  onClick={()=> props.handleAddToCart(props.product)} className='btn-cart'>
+
+                <p className='btn-text'>Add to Cart</p>
+                <BsFillCartFill className='icon' />
+            </button>
         </div>
     );
 };
