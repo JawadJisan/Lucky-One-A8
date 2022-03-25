@@ -2,73 +2,74 @@
     {
       "id": 1,
       "name": "AVENTADOR SVJ",
-      "img": "https://raw.githubusercontent.com/Programming-Hero-Web-Course4/lucky-one-JawadJisan/main/public/img/1.jpg?token=GHSAT0AAAAAABSYMCPBT4EHQPOI4IWNINDQYR55XNQ",
-      "max.power": "566 kW (770 CV) at 8,500 rpm",
-      "top-speed": ">350 km/h",
-      "price": ""
+      "img": "https://raw.githubusercontent.com/Programming-Hero-Web-Course4/lucky-one-JawadJisan/main/public/img/1.jpg?token=GHSAT0AAAAAABSYMCPBPAKSTMUWPFHWXL5SYR6AL2A",
+      "maxpower": "566 kW (770 CV) at 8,500 rpm",
+      "topspeed": ">350 km/h",
+      "price": 50000
     },
     {
         "id": 2,
         "name": "AVENTADOR SVJ ROADSTER",
-        "img": "https://raw.githubusercontent.com/Programming-Hero-Web-Course4/lucky-one-JawadJisan/main/public/img/2.jpg?token=GHSAT0AAAAAABSYMCPA3QH7ONZUVSMYMR42YR55X7A",
-        "max.power": "770 CV (566 kW) @ 8,500 rpm",
-        "top-speed": ">350 km/h",
-        "price": ""
+        "img": "https://raw.githubusercontent.com/Programming-Hero-Web-Course4/lucky-one-JawadJisan/main/public/img/2.jpg?token=GHSAT0AAAAAABSYMCPBROL7TSHNHUU44E5UYR6AIIA",
+        "maxpower": "770 CV (566 kW) @ 8,500 rpm",
+        "topspeed": ">350 km/h",
+        "price": 145522
       },
       {
         "id": 3,
-        "name": "https://raw.githubusercontent.com/Programming-Hero-Web-Course4/lucky-one-JawadJisan/main/public/img/3.jpg?token=GHSAT0AAAAAABSYMCPA46KJBHML7IVCACI4YR55Y5A",
-        "max.power": "780 CV (574 kW) at 8,500 rpm",
-        "top-speed": "355 km/h",
-        "price": ""
+        "name": "AVEN NEW GEN++",
+        "img": "https://raw.githubusercontent.com/Programming-Hero-Web-Course4/lucky-one-JawadJisan/main/public/img/3.jpg?token=GHSAT0AAAAAABSYMCPBDQO7YIWPLNZD2OLOYR6AI6Q",
+        "maxpower": "780 CV (574 kW) at 8,500 rpm",
+        "topspeed": "355 km/h",
+        "price": 326526
       },
       {
         "id": 4,
         "name": "HURACÁN EVO",
         "img": "https://raw.githubusercontent.com/Programming-Hero-Web-Course4/lucky-one-JawadJisan/main/public/img/4.jpg?token=GHSAT0AAAAAABSYMCPAAJAMF6VA2WPK56ZKYR554UQ",
-        "max.power": "640 CV (470 kW) @ 8,000 rpm",
-        "top-speed": "km/h >325 (mph > 202)",
-        "price": ""
+        "maxpower": "640 CV (470 kW) @ 8,000 rpm",
+        "topspeed": "km/h >325 (mph > 202)",
+        "price": 123654
       },
       {
         "id": 5,
         "name": "URUS",
         "img": "https://raw.githubusercontent.com/Programming-Hero-Web-Course4/lucky-one-JawadJisan/main/public/img/5.jpg?token=GHSAT0AAAAAABSYMCPBUHMYPSP7LZ7MQQZSYR555BQ",
-        "max.power": "650 CV (478 kW) @ 6,000 rpm",
-        "top-speed": "350 km/h",
-        "price": ""
+        "maxpower": "650 CV (478 kW) @ 6,000 rpm",
+        "topspeed": "350 km/h",
+        "price": 121655
       },
       {
         "id": 6,
         "name": "MODELS URUS",
         "img": "https://raw.githubusercontent.com/Programming-Hero-Web-Course4/lucky-one-JawadJisan/main/public/img/6.jpg?token=GHSAT0AAAAAABSYMCPA3ZJWDTQSLH6FTEYWYR555NQ",
-        "max.power": "650 CV (478 kW) @ 6,000 rpm",
-        "top-speed": "305 km/h ",
-        "price": ""
+        "maxpower": "650 CV (478 kW) @ 6,000 rpm",
+        "topspeed": "305 km/h ",
+        "price": 122259
       },
       {
         "id": 7,
         "name": "SIAN FKP 37",
         "img": "https://raw.githubusercontent.com/Programming-Hero-Web-Course4/lucky-one-JawadJisan/main/public/img/7.jpg?token=GHSAT0AAAAAABSYMCPBPTIWSYOEYCB2XF2WYR5552A",
-        "max.power": "819 CV (602 kW) @ 8,500 rpm ",
-        "top-speed": "355 km/h",
-        "price": ""
+        "maxpower": "819 CV (602 kW) @ 8,500 rpm ",
+        "topspeed": "355 km/h",
+        "price": 4246566
       },
       {
         "id": 8,
         "name": "COUNTACH LPI 800-4",
         "img": "https://raw.githubusercontent.com/Programming-Hero-Web-Course4/lucky-one-JawadJisan/main/public/img/8.jpg?token=GHSAT0AAAAAABSYMCPAAMXJ4RULRRFXBTDIYR556EA",
-        "max.power": "814 CV (599 kW) @ 8,500 rpm",
-        "top-speed": "355 km/h",
-        "price": ""
+        "maxpower": "814 CV (599 kW) @ 8,500 rpm",
+        "topspeed": "355 km/h",
+        "price": 1123654
       },
       {
         "id": 9,
         "name": "AVENTADOR LP 780-4 ULTIMAE ROADSTER",
         "img": "https://raw.githubusercontent.com/Programming-Hero-Web-Course4/lucky-one-JawadJisan/main/public/img/9.jpg?token=GHSAT0AAAAAABSYMCPA7QJWTCFQMF3QZZLUYR556RQ",
-        "max.power": "780 CV (574 kW) at 8,500 rpm",
-        "top-speed": "355 km/h",
-        "price": ""
+        "maxpower": "780 CV (574 kW) at 8,500 rpm",
+        "topspeed": "355 km/h",
+        "price": 99999
       }
   ]
   
