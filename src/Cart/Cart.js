@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
 import Selectedcars from '../Selectedcars/Selectedcars';
+import { addToDb, getStoredcart } from '../utilities/database';
 import './Cart.css'
 
 const Cart = () => {
@@ -15,6 +16,7 @@ const Cart = () => {
     },[])
 
     useEffect(()=>{
+        // const storedCart = getStoredcart();
         const storedCart = getStoredcart();
         const saveCart = [];
 
@@ -39,6 +41,14 @@ const Cart = () => {
             selectedCars.quantity =1;
             newCart = [...selectedCars, selectedCars]
         }
+        else{
+            const rest = selectedCars.filter(car => car.id !== selectedCars.id)
+            isExist.quantity = isExist.quantity + 1;
+            newCart = [...rest, isExist];
+        }
+        setSelectedCars(newCart);
+        addToDb(selectedCars.id)
+
     }
 
     return (
@@ -51,7 +61,7 @@ const Cart = () => {
                 }
             </div>
             <div className='container-cart'>
-            <Selectedcars products={products}>
+            <Selectedcars selectedCars={selectedCars}>
 
             </Selectedcars>
 

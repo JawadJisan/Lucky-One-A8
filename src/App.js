@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './Header/Header';
-import Cart from './Cart/Cart';
+import Header from './components/Header/Header';
+import Shop from './components/Shop/Shop';
+import Question from './Question/Question';
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <Header></Header>
-      <Cart></Cart>
+      <Shop></Shop>
+      <Question></Question>
     </div>
   );
 }
