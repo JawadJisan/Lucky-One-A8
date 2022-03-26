@@ -1,0 +1,11 @@
+.questions{
+    background-color: rgb(235, 235, 235);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.ans{
+    padding: 30px;
+}
