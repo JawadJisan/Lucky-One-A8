@@ -5,7 +5,9 @@
       "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/aventador/svj/11_17/ar_aventador_svj.png",
       "maxpower": "566 kW (770 CV) at 8,500 rpm",
       "topspeed": ">350 km/h",
-      "price": 50000
+      "price": 50000,
+      "quantity": 0
+
     },
     {
         "id": 2,
@@ -13,7 +15,9 @@
         "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/aventador/svj_rds/ar_aven_svj_rds_01.png",
         "maxpower": "770 CV (566 kW) @ 8,500 rpm",
         "topspeed": ">350 km/h",
-        "price": 145522
+        "price": 145522,
+        "quantity": 0
+
       },
       {
         "id": 3,
@@ -21,7 +25,9 @@
         "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/aventador/ultimae/ar_ultimae.png",
         "maxpower": "780 CV (574 kW) at 8,500 rpm",
         "topspeed": "355 km/h",
-        "price": 326526
+        "price": 326526,
+        "quantity": 0
+
       },
       {
         "id": 4,
@@ -29,7 +35,9 @@
         "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/huracan/huracan_evo/H-EVO_3.png",
         "maxpower": "640 CV (470 kW) @ 8,000 rpm",
         "topspeed": "km/h >325 (mph > 202)",
-        "price": 123654
+        "price": 123654,
+        "quantity": 0
+
       },
       {
         "id": 5,
@@ -37,7 +45,9 @@
         "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/urus/urus/ar_urus_neve.png",
         "maxpower": "650 CV (478 kW) @ 6,000 rpm",
         "topspeed": "350 km/h",
-        "price": 121655
+        "price": 121655,
+        "quantity": 0
+
       },
       {
         "id": 6,
@@ -45,7 +55,9 @@
         "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/urus/graphite/ar_urus%20graphite_2.png",
         "maxpower": "650 CV (478 kW) @ 6,000 rpm",
         "topspeed": "305 km/h ",
-        "price": 122259
+        "price": 122259,
+        "quantity": 0
+
       },
       {
         "id": 7,
@@ -53,7 +65,9 @@
         "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/sian/sian_fkp_37/ar_sian_fkp.png",
         "maxpower": "819 CV (602 kW) @ 8,500 rpm ",
         "topspeed": "355 km/h",
-        "price": 4246566
+        "price": 4246566,
+        "quantity": 0
+
       },
       {
         "id": 8,
@@ -61,7 +75,9 @@
         "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/ar/Countach_AR_final.png",
         "maxpower": "814 CV (599 kW) @ 8,500 rpm",
         "topspeed": "355 km/h",
-        "price": 1123654
+        "price": 1123654,
+        "quantity": 0
+
       },
       {
         "id": 9,
@@ -69,7 +85,9 @@
         "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/aventador/ultimae_rds/Av_SJ_Roadster_SfondoTrasparente.png.png",
         "maxpower": "780 CV (574 kW) at 8,500 rpm",
         "topspeed": "355 km/h",
-        "price": 99999
+        "price": 99999,
+        "quantity": 0
+
       }
   ]
   

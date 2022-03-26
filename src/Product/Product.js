@@ -4,7 +4,7 @@ import { BsFillCartFill } from "react-icons/bs";
 
 
 const Product = (props) => {
-    console.log(props.product);
+    // console.log(props.product);
     const{img, name, price, maxpower, topspeed} = props.product;
 
     return (

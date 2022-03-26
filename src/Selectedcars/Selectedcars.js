@@ -2,10 +2,13 @@ import React from 'react';
 import './Selectedcars.css'
 
 const Selectedcars = (props) => {
-    const {selectedcars} = props;
+    const {selectedcars} = props.products;
+    console.log(selectedcars)
     return (
-        <div>
+        <div className='selected-cart'>
             <h1>Selected Cars</h1>
+
+
         </div>
     );
 };
