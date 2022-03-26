@@ -1,28 +1,37 @@
 import React from 'react';
+import Showname from '../Showname/Showname';
 import './Cart.css'
 
 const Cart = (props) => {
     const {cart} = props;
     console.log(cart)
 
-    let quantity = 0;
+    let name = [];
+    let id = [];
     for(const product of cart){
-        quantity = quantity + product.quantity;
+        name = name + product.name;
+        id = [...id, product.id]
+        
+    }
+
+    const chooseAgain = (remove) =>{
+        console.log(remove)
+        let newCart = []
+        let cart = ['']
+        
     }
 
     return (
         <div className='cart'>
                <h3>Selected Cars</h3>
-                <p>Name:{quantity}</p>
-
-
-                <p>Selected Items:{quantity}</p>
-
+                <p>{name}</p>
+                
+                <Showname keys={id} name={name} id={id}></Showname>
 
 
                 <button className='btn'>Choose Your Car</button>
                 <br></br>
-                <button className='btn'>Choose Again</button>
+                <button onClick={() => {chooseAgain(cart)}} className='btn'>Choose Again</button>
 
         </div>
     );

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import {addToDb, getStoredcart} from '../../utilities/fakedb'
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
+import Showname from '../Showname/Showname';
 import './Shop.css'
 
 const Shop = () => {
@@ -32,7 +33,7 @@ const Shop = () => {
    },[products])
 
     const handleAddToCart = (selectedProduct) =>{
-        console.log(selectedProduct)
+        // console.log(selectedProduct)
         let newCart = []
         const exist = cart.find(product => product.id === selectedProduct.id);
         if(!exist){
@@ -44,8 +45,15 @@ const Shop = () => {
             exist.quantity = exist.quantity + 1;
             newCart = [...rest, exist];
         }
+        
         setCart(newCart)
+        // console.log(newCart);
         addToDb(selectedProduct.id)
+    }
+
+    const addToCartBtn = (selectedCars)=>{
+        console.log('the:::',selectedCars)
+        
     }
 
     return (
@@ -56,6 +64,9 @@ const Shop = () => {
                     key={product.id}
                     product={product}
                     handleAddToCart={handleAddToCart}
+                    
+                    addToCartBtn={addToCartBtn}
+
                     ></Product>)
                 } 
             </div>
