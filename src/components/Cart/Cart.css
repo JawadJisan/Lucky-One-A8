@@ -2,4 +2,21 @@
     position: sticky;
     top: 0;
     align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
+.btn{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(50, 125, 223);
+    border: none;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1rem;
 }

@@ -2,20 +2,13 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    const {cart, name} = props;
-    console.log('this is the name',name)
+    const {cart} = props;
+    console.log(cart)
 
-    let total = 0;
-    let shipping = 0;
     let quantity = 0;
     for(const product of cart){
-        total = total + product.price * product.quantity;
-        shipping = shipping + product.shipping;
         quantity = quantity + product.quantity;
     }
-    const tax = (total * 0.1).toFixed(2);
-    // const taxs = tax.toFixed(2);
-    const grandTotal = total + shipping +parseFloat(tax);
 
     return (
         <div className='cart'>
@@ -26,13 +19,10 @@ const Cart = (props) => {
                 <p>Selected Items:{quantity}</p>
 
 
-                {/* <p>Total Price: ${total} </p>
-                <p>Total Shipping: ${shipping} </p>
-                <p>Tax: ${tax}</p>
-                <p>Grand Total: ${grandTotal.toFixed(2)}</p> */}
 
-                <button>Choose Your Car</button><br></br>
-                <button>Choose Again</button>
+                <button className='btn'>Choose Your Car</button>
+                <br></br>
+                <button className='btn'>Choose Again</button>
 
         </div>
     );

@@ -1,9 +1,10 @@
 .product{
     width: 300px;
     height: 510px;
-    border: 1px solid #95A0A7;
+    border: 5px solid #28a3f0;
     box-sizing: border-box;
     border-radius: 8px;
+    background-color: #e3eff8;
     position: relative;
 }
 
@@ -19,16 +20,18 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 21px;
+    font-size: 25px;
     margin-top: 7px;
 }
 .product-info{
     margin: 0 12px;
+    margin-top: 0px;
 }
 .product-info p{
     margin-bottom: 0;
     margin-top: 5px;
 }
+
 .btn-cart{
     width: 100%;
     background-color: #b3ddff;
